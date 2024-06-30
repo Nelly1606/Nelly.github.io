@@ -1,0 +1,84 @@
+#menu { 
+    background: #BCDEF1;
+    width: 98.7%;
+    height: 14.5%;
+    position: fixed;
+    z-index: 100; 
+    }
+#menu ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+   }
+   #menu ul li {
+ background: #BCDEF1;
+   }
+   #menu ul a {
+    display:block;
+    color:#000000;
+    text-decoration:none;
+    font-weight:360;
+    font-size:13px;
+    padding: 35.5px;
+    font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform:uppercase;
+    letter-spacing:2px;
+   }
+   #menu ul li {
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0;
+   }
+   #menu ul li:hover {
+    background: #317cb9;
+   }
+   #menu ul ul {
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background:#000000;
+    padding:0;
+   }
+   #menu ul ul li {
+    float:none;
+    width:200px
+   }
+   #menu ul ul a {
+    line-height:120%;
+    padding:10px 15px;
+   }
+   #menu ul li:hover > ul {
+    display:block;
+   }
+   H7{
+      font-size: 15px;
+      font-family: "Inter", sans-serif;
+     }
+   footer{
+   background: #BCDEF1;
+   color:#000000;
+   text-align: center;
+   padding:10px;
+   position: relative;
+   bottom: 0;
+   width: 100%;
+   }
+  #logo {
+      background-image: url("Borcelle (1).png");
+      background-size: cover;
+      width: 87px;
+      height: 87px;
+  }
+h1{
+    font-size: 20px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+img{
+    margin-left: 40px;
+    margin-top: 60px;
+}
+body{
+    background: #daeef8;
+}

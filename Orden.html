@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orden</title>
+    <LINK REL="STYLESHEET" TYPE="TEXT/CSS" href="negocio1.css">
+    <LINK REL="STYLESHEET" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body bgcolor="#daeef8">
+<HEADER>
+ 
+<nav id="menu">
+    <ul> 
+      <li><div id="logo"></div></li>
+      <li><a href="index.html">Inicio</a></li>
+     <li><a href="#">Utencilios</a>
+     <ul>
+        <li><a href="moldes.html">Moldes</a></li>
+        <li><a href="Cortadores.html">Cortadores De Galletas</a></li>
+        <li><a href="duyas.html">Duyas</a></li>
+        </ul>
+        </li>
+     <li><a href="#">Chocolate</a>
+     <ul>
+        <li><a href="semiamargo.html">Chocolate Semiamargo</a></li>
+        <li><a href="blanco.html">Chocolate Blanco</a></li>
+        <li><a href="chispas.html">Chispas De Chocolate</a></li>
+     </ul>
+     </li>
+     <li><a href="#">Colorantes</a>
+     <ul>
+        <li><a href="gel.html">Colorante En Gel</a></li>
+        <li><a href="spray.html">Colorante En Spray</a></li>
+        <li><a href="plumones.html">Plumones Comestibles</a></li>
+        </ul>
+        </li>
+    <li><a href="#">Decoraciones</a>
+        <ul>
+           <li><a href="velas.html">Velas</a></li>
+           <li><a href="sprinkels.html">Sprinkles</a></li>
+           <li><a href="diamantina.html">Diamantina</a></li>
+           </ul>
+           </li>
+           <li><a href="Orden.html">Orden</a>
+               </li>
+    </ul>
+    </nav>
+    </HEADER>
+    <div class="formulario">
+        <h1>Orden</h1>
+         <form action="index.php" method="get">
+            <div class="nom">
+               
+                    <input type="text" id="nombre" name="nombre" required>
+                     <label for="">Nombre:</label>
+                </div>
+                <div class="nom">
+                    <input type="text" id="Apellido" name="Apellido" required>
+                    <label for="">Apellido:</label>
+                </div>
+                <div class="nom">
+                    <input type="Text" id="Telefono" name="Telefono" required>
+                    <label for="">Telefono:</label>
+                </div>
+                
+                <div class="Compras">
+                    <h2>Selecione lo que llevara:</h2>
+                    <table BORDER="0"  CELLPACING="5" CELLPADDING="8" WIDTH="100%"> 
+                    <tr><td><label for="name">Cortadores De Galletas</label>
+                    <input type="checkbox" name="chk1" value="Cortadores De Galletas"/></td>
+                    <td><label for="name">Chispas De Chocolate</label>
+                    <input type="checkbox" name="chk2" value="Chispas De Chocolate"/></td>
+                    <td><label for="name">Sprinkels</label>
+                    <input type="checkbox" name="chk3" value="Sprinkels"/></td>
+                    <td><label for="name">Chocolate Semiamargo</label>
+                    <input type="checkbox" name="chk4" value="Chocolate Semiamargo"/></td></tr>
+                    <td><label for="name">Colorante En Spray</label>
+                    <input type="checkbox" name="chk6" value="Spray"/></td>
+                    <td><label type="name">Plumones Comestible</label>
+                    <input type="checkbox" name="chk7" value="Plumones Comestible"/></td>
+                    <td><label for="name">Chocolate Blanco</label>
+                    <input type="checkbox" name="chk8" value="Chocolate Blanco"/></td>
+                    <td><label type="name">Moldes</label>
+                    <input type="checkbox" name="chk9" value="Moldes"/></td></tr>
+                    <td><label for="name">Velas</label>
+                    <input type="checkbox" name="chk10" value="Velas"/></td>
+                    <td><label for="name">Diamantina</label>
+                    <input type="checkbox" name="chk11" value="Diamantina"/></td>
+                    <td><label type="name">Duyas</label>
+                    <input type="checkbox" name="chk12" value="Duyas"/></td>
+                    <td><label for="name">Colorante En Gel</label>
+                    <input type="checkbox" name="chk13" value="Gel"/></td></tr>
+                </div></table>
+                <br>
+                    <div class="msg">
+                    <h2>Comentarios:</h2>
+                    <textarea id="msg" name="msg"></textarea>
+                </div>
+                <br>
+                <br>
+                <div class="botton">
+                <button type="reset" id="btn-reset">Borrar</button>
+                <input type="submit" value="Ordenar">
+            </div>
+<div class="gracias">
+            GRACIAS!!
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,186 @@
+#menu { 
+    background: #BCDEF1;
+    width: 100%;
+    height: 14%;
+    position: fixed;
+    z-index: 100; 
+    }
+#menu ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+   }
+   #menu ul li {
+ background: #BCDEF1;
+   }
+   #menu ul a {
+    display:block;
+    color:#000000;
+    text-decoration:none;
+    font-weight:360;
+    font-size:12.5px;
+    padding: 35.5px;
+    font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform:uppercase;
+    letter-spacing:2px;
+   }
+   #menu ul li {
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0;
+   }
+   #menu ul li:hover {
+    background: #60a1d7;
+   }
+   #menu ul ul {
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background:#000000;
+    padding:0;
+   }
+   #menu ul ul li {
+    float:none;
+    width:200px
+   }
+   #menu ul ul a {
+    line-height:120%;
+    padding:10px 15px;
+   }
+   #menu ul li:hover > ul {
+    display:block;
+   }
+   h1{
+    font-family: "Inter", sans-serif;
+    color:#0805ae;
+        }
+   H7{
+      font-size: 15px;
+      font-family: "Inter", sans-serif;
+     }
+   P{
+    font-family: "Plus Jakarta Sans", sans-serif;
+      COLOR:#000000;
+      FONT-SIZE:18px;
+   }
+  #logo {
+      background-image: url("Borcelle (1).png");
+      background-size: cover;
+      width: 85px;
+      height: 85px;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height: 100vh;
+}
+
+.formulario{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    background: white;
+    border-radius: 10px;
+}
+
+.formulario h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+
+.formulario form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .nom{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+
+.nom input{
+    width: 100%;
+    padding: 10px 10px 10px 5px;
+    height: 40px;
+    font-size: 18 px;
+    border: none;
+    background:none ;
+    outline: none;
+    display: block;
+}
+
+input:focus{
+    outline: none;
+    color:#adadad;
+
+}
+.nom label {
+    color: #adadad;
+    font-size:16px;
+    position:absolute;
+    left: 5px;
+    top: 20px;
+    transition: 0.5s ease-in-out all;
+    pointer-events: none;
+}
+input:focus~label,
+input:valid~label{
+    top:-14px;
+    font-size: 15px;
+    color:#0805ae;
+}
+
+input[type="submit"]{
+    width: 25%;
+    height: 40px;
+    border: 3px solid;
+    background: #346ce6;
+    border-radius: 25px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    border-color: #0805ae;
+    transition: .5s;
+}
+
+.gracias{
+margin: 30px 0;
+text-align: center;
+font-size: 16px;
+color: black;
+}
+h2{
+    font-size: 19px;
+    font-family: "Inter", sans-serif;
+}
+button{
+    width: 25%;
+    height: 40px;
+    border: 3px solid;
+    background: #346ce6;
+    border-radius: 25px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    outline: none; 
+}
+button:hover{
+    border-color: rgb(8, 5, 174);
+    transition: .5s;
+}
+.botton{
+    display: flex;
+    margin-left: 310px;
+}
